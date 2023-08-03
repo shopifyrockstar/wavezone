@@ -30,7 +30,7 @@
           "header__top-bar-0": {
             "type": "text",
             "settings": {
-              "text": "123 Main Street, Pleasantville USA"
+              "text": "Check Out Deals - <a href=\"#\">Here<\/a>!"
             }
           },
           "header__top-bar-1": {
