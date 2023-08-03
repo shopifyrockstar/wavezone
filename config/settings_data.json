@@ -1,6 +1,7 @@
 {
   "current": {
     "show_announcement_bar": false,
+    "header_layout": "centered",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
