@@ -2,6 +2,7 @@
   "current": {
     "show_announcement_bar": false,
     "header_layout": "classic",
+    "header_background": "#000000",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
