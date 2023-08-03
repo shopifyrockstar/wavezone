@@ -240,9 +240,9 @@
     {% section 'announcement-bar' %}
   {%- endif -%}
 
-  {%- if settings.header_layout == "classic" -%}
-    {% section 'header__top-bar' %}
+  {%- if settings.header_layout == "classic" -%}    
     {% section 'header-classic' %}
+    {% section 'header__top-bar' %}
   {%- elsif settings.header_layout == "centered" -%}
     {% section 'header-centered__top-bar' %}
     {% section 'header-centered' %}
