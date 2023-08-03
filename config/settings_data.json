@@ -2,6 +2,8 @@
   "current": {
     "show_announcement_bar": false,
     "header_layout": "classic",
+    "link_color": "#ffffff",
+    "link_hover_color": "#ece7e7",
     "header_background": "#000000",
     "sections": {
       "announcement-bar": {
