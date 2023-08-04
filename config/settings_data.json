@@ -2,6 +2,8 @@
   "current": {
     "show_announcement_bar": false,
     "header_layout": "classic",
+    "button_cart_bg_color": "#000000",
+    "button_cart_bg_color--highlight": "#00a0af",
     "link_color": "#ffffff",
     "link_hover_color": "#ece7e7",
     "header_background": "#000000",
