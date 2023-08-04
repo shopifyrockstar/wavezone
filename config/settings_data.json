@@ -231,14 +231,6 @@
       "footer-classic": {
         "type": "footer-classic",
         "blocks": {
-          "footer-classic-0": {
-            "type": "logo",
-            "settings": {
-              "size": "small",
-              "text": "",
-              "social_icons_footer": false
-            }
-          },
           "footer-classic-1": {
             "type": "link_list",
             "settings": {
@@ -256,17 +248,16 @@
           }
         },
         "block_order": [
-          "footer-classic-0",
           "footer-classic-1",
           "footer-classic-2"
         ],
         "settings": {
           "copyright_text": "",
-          "display_designed_by": true,
-          "display_shopify": true,
-          "display_payment_methods": true,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
+          "display_designed_by": false,
+          "display_shopify": false,
+          "display_payment_methods": false,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
           "css_class": "",
           "custom_css": ""
         }
