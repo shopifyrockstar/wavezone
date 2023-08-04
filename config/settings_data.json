@@ -3,7 +3,7 @@
     "show_announcement_bar": false,
     "header_layout": "classic",
     "button_cart_bg_color": "#000000",
-    "button_cart_bg_color--highlight": "#00a0af",
+    "button_cart_bg_color--highlight": "#22656b",
     "button_cart_text_color": "#ffffff",
     "button_cart_text_color--highlight": "#ffffff",
     "button_cart_border_radius": 0,
