@@ -37,13 +37,55 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "832a098b-0906-4ce7-94ef-8739670f3fe8": {
+      "type": "index__contact-form",
+      "blocks": {
+        "template--20299178279208__832a098b-0906-4ce7-94ef-8739670f3fe8-textfield-1": {
+          "type": "textfield",
+          "settings": {
+            "label": "Name",
+            "required": true
+          }
+        },
+        "template--20299178279208__832a098b-0906-4ce7-94ef-8739670f3fe8-email-1": {
+          "type": "email",
+          "settings": {
+            "label": "Email"
+          }
+        },
+        "template--20299178279208__832a098b-0906-4ce7-94ef-8739670f3fe8-textarea-1": {
+          "type": "textarea",
+          "settings": {
+            "label": "Message",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20299178279208__832a098b-0906-4ce7-94ef-8739670f3fe8-textfield-1",
+        "template--20299178279208__832a098b-0906-4ce7-94ef-8739670f3fe8-email-1",
+        "template--20299178279208__832a098b-0906-4ce7-94ef-8739670f3fe8-textarea-1"
+      ],
+      "settings": {
+        "title": "Get in touch today",
+        "content_text": "<p>Customize your contact form to suit your business! Add custom fields like a dropdown menu, checkbox, text fields and more, so that you can gather pertinent info from shoppers right from the get-go, to help answer their inquiries more effectively.<\/p>",
+        "social_enable": true,
+        "text_alignment": "left",
+        "background": "#E5E5E5",
+        "text_color": "#000000",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
-    "image_with_text_overlay"
+    "image_with_text_overlay",
+    "832a098b-0906-4ce7-94ef-8739670f3fe8"
   ]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
