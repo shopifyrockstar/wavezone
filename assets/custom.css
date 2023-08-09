@@ -1,3 +1,85 @@
 .purchase-details__buttons .action_button.action_button--secondary{
     text-transform: uppercase;
 }
+.icon-bar-wrapper{
+    padding: 10px;  
+}
+.shopify-section.footer.footer--classic{
+    background-image: url(https://cdn.shopify.com/s/files/1/0802/3719/9656/files/footer-bkg.jpg?v=1691433175);
+    background-position: center top 35%;
+}
+.shopify-section.footer.footer--classic .footer__content{
+    background-color: transparent;
+}
+.shopify-section.footer.footer--classic .footer__credits p{
+    color: white;
+}
+.footer-topnav-wrapper{
+    width: 100%;        
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-topnav-wrapper ul.menu-wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-topnav-wrapper ul.menu-wrapper a{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.footer__block a{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.footer__block {
+    text-align: center;
+}
+.block__newsletter.footer__block{
+    text-align: left;   
+}
+.footer__block .social-icons{
+    justify-content: center;
+}
+.footer__container .has-bottom-border{
+    border-bottom:1px solid white;
+}
+.site-footer__copyright-menu{
+    padding-top: 50px;
+}
+.site-footer__copyright-menu .footer-lnav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.site-footer__copyright-menu .footer-lnav li{
+    font-size: 18px;
+    padding-right: 10px;
+}
+.site-footer__copyright-menu .footer-lnav li span{
+    padding-left: 10px;
+}
+
+@media (max-width: 1020px){
+    .footer .footer__content .footer__block{
+        width: calc(50% - 20px);
+    }
+    .site-footer__copyright-menu .footer-lnav{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 767px){
+    .footer .footer__content .footer__block{
+        width: 100%;
+    }
+    .footer-topnav-wrapper ul{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-topnav-wrapper ul li{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}

@@ -34,7 +34,23 @@
                   has-background
                   has-padding-top
                   has-padding-bottom">
-    <div class="container has-limit is-justify-space-between">
+    <div class="container has-limit is-justify-space-between has-bottom-border">
+      <div class="footer-topnav-wrapper">
+        <ul class="menu-wrapper" >
+          <li class="menu-item">
+            <a href="/pages/dealers/"><span>Dealer Information</span></a>
+          </li>
+          <li class="menu-item">
+            <a href="/pages/warranty/"><span>Warranty</span></a>
+          </li>
+          <li class="menu-item">
+            <a href="/pages/privacy-policy/"><span>Privacy Policy</span></a>
+          </li>
+          <li class="menu-item">
+            <a href="/pages/contact/"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
       {% for block in section.blocks %}
         <div id="shopify-section-{{ block.id }}" class="footer__block block__{{ block.id }} block__{{ block.type | downcase | replace: '_', '-' }}
                     {% render 'column-width', value: section.blocks.size %}
@@ -124,7 +140,20 @@
         </div>
       {% endfor %}
     </div>
+    <div class="site-footer__copyright-menu container has-limit is-justify-space-between">
+      <ul class="footer-lnav">
+        <li><a href="/dealers/">DEALER INFORMATION</a><span>|</span></li>
+        <li><a href="/warranty/">WARRANTY</a><span>|</span></li>
+        <li><a href="/privacy-policy/">PRIVACY POLICY</a><span>|</span></li>
+        <li><a href="/wave-zone-skimboards-photo-gallery/">GALLERY</a><span>|</span></li>
+        <li><a href="/contact/">CONTACT</a><span>|</span></li>
+      </ul>
+      <div class="copyright-image-container">
+        <img src="https://cdn.shopify.com/s/files/1/0802/3719/9656/files/sima-logo.png?v=1691507653">
+      </div>
+    </div>    
   </section>
+  
   <section class="footer__extra-content section">
     <div class="container has-padding-top has-padding-bottom">
       {% if locale_selector or currency_selector or settings.show_multiple_currencies %}
@@ -150,7 +179,7 @@
       {% endif %}
 
       <div class="footer__credits {% if section.settings.display_payment_methods %}two-thirds {% else %} one-whole {% endif %} column small-down--one-whole">
-        <p>&copy; {{ "now" | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}.</p>
+        <p>&copy; 2008 - {{ "now" | date: "%Y" }}</p>
         {{ section.settings.copyright_text }}
         {% if section.settings.display_designed_by %}
           <p>{{ 'layout.general.designer_credits_html' | t }}</p>
