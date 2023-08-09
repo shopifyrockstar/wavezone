@@ -10,11 +10,13 @@ link_setting: <string>
 <div class="footer__menu is-justify-space-between {{ linklist_class }}">
 {% if menu_link != blank %}
   {% assign menu = linklists[menu_link] %}
+  {% comment %}
   <p class="footer__heading">
     {% if link_setting != blank %}<a href="{{ link_setting }}">{% endif %}
       {{ menu.title }}
     {% if link_setting != blank %}</a>{% endif %}
   </p>
+{% endcomment %}
   <ul>
     {% for link in menu.links %}
       <li class="footer__menu-link">
