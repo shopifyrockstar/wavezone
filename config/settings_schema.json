@@ -4,8 +4,8 @@
     "theme_name": "Flex",
     "theme_author": "Out of the Sandbox",
     "theme_version": "3.5.0",
-    "theme_documentation_url": "https:\/\/help.outofthesandbox.com/",
-    "theme_support_url": "https:\/\/help.outofthesandbox.com\/hc\/en-us\/requests/new"
+    "theme_documentation_url": "https:\/\/help.outofthesandbox.com\/",
+    "theme_support_url": "https:\/\/help.outofthesandbox.com\/hc\/en-us\/requests\/new"
   },
   {
     "name": "t:settings_schema.age_gate.name",
@@ -68,7 +68,7 @@
         "type": "select",
         "id": "header_layout",
         "label": "Header",
-        "info": "[Preview options](https://help.outofthesandbox.com/hc/en-us/articles/360022225073#header-settings-and-styles)",
+        "info": "[Preview options](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360022225073#header-settings-and-styles)",
         "options": [
           {
             "value": "centered",
@@ -93,7 +93,7 @@
         "type": "select",
         "id": "footer_layout",
         "label": "Footer",
-        "info": "[Preview options](https://help.outofthesandbox.com/hc/en-us/articles/360021506133#footer-styles)",
+        "info": "[Preview options](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360021506133#footer-styles)",
         "options": [
           {
             "value": "none",
@@ -216,7 +216,7 @@
       {
         "type": "header",
         "content": "Language selector",
-        "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+        "info": "To add a language, go to your [language settings.](\/admin\/settings\/languages)"
       },
       {
         "type": "checkbox",
@@ -227,7 +227,7 @@
       {
         "type": "header",
         "content": "Country selector",
-        "info": "To add a country, go to your [payment settings.](/admin/settings/payments)"
+        "info": "To add a country, go to your [payment settings.](\/admin\/settings\/payments)"
       },
       {
         "type": "checkbox",
@@ -619,7 +619,7 @@
         "type": "text",
         "id": "button_cart_icon",
         "label": "Icon",
-        "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/360021570294)"
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360021570294)"
       },
       {
         "type": "select",
@@ -1199,7 +1199,7 @@
       {
         "type": "color",
         "id": "cart_background_color",
-        "label": "Mini cart/drawer background",
+        "label": "Mini cart\/drawer background",
         "default": "#fff"
       },
       {
@@ -2004,7 +2004,7 @@
         "type": "checkbox",
         "id": "collection_swatches",
         "label": "Show color swatches",
-        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360024080613) or manage your custom color swatches for all products by [viewing your uploaded files](/admin/settings/files).",
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360024080613) or manage your custom color swatches for all products by [viewing your uploaded files](\/admin\/settings\/files).",
         "default": true
       },
       {
@@ -2120,7 +2120,7 @@
         "type": "checkbox",
         "id": "enable_swatches",
         "label": "Show color swatches",
-        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360024080613) or manage your custom color swatches for all products by [viewing your uploaded files](/admin/settings/files).",
+        "info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/360024080613) or manage your custom color swatches for all products by [viewing your uploaded files](\/admin\/settings\/files).",
         "default": false
       },
       {
@@ -2175,7 +2175,7 @@
         "type": "richtext",
         "id": "notify_me_description",
         "label": "Text",
-        "default": "<p>Notify me when this product is available:</p>"
+        "default": "<p>Notify me when this product is available:<\/p>"
       },
       {
         "type": "header",
@@ -2292,7 +2292,7 @@
         "type": "checkbox",
         "id": "display_tos_checkbox",
         "label": "Show 'agree to terms' checkbox",
-        "info": "If the dynamic payment button is enabled, customers will be able to bypass these terms. [Learn more](https://help.outofthesandbox.com/hc/en-us/articles/115007101208-Terms-Conditions-on-the-Cart-Page) ",
+        "info": "If the dynamic payment button is enabled, customers will be able to bypass these terms. [Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/115007101208-Terms-Conditions-on-the-Cart-Page) ",
         "default": false
       },
       {
@@ -2368,7 +2368,7 @@
       {
         "type": "header",
         "content": "Custom theme currency converter",
-        "info": "If custom converter is enabled, the native multi-currency converter will be disabled. [Learn more](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)"
+        "info": "If custom converter is enabled, the native multi-currency converter will be disabled. [Learn more](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)"
       },
       {
         "type": "checkbox",
@@ -2405,7 +2405,7 @@
       {
         "type": "text",
         "id": "disqus_shortname",
-        "label": "[DISQUS](http:\/\/help.disqus.com/en/articles/1717111-what-s-a-shortname\/) shortname"
+        "label": "[DISQUS](http:\/\/help.disqus.com\/en\/articles\/1717111-what-s-a-shortname\/) shortname"
       }
     ]
   },
@@ -2416,25 +2416,25 @@
         "type": "text",
         "id": "behance_link",
         "label": "Behance",
-        "info": "https://behance.net/"
+        "info": "https:\/\/behance.net\/"
       },
       {
         "type": "text",
         "id": "clubhouse_link",
         "label": "Clubhouse",
-        "info": "https://www.clubhouse.com/"
+        "info": "https:\/\/www.clubhouse.com\/"
       },
       {
         "type": "text",
         "id": "discord_link",
         "label": "Discord",
-        "info": "https://discord.com/"
+        "info": "https:\/\/discord.com\/"
       },
       {
         "type": "text",
         "id": "dribbble_link",
         "label": "Dribbble",
-        "info": "https://dribbble.com/shopify"
+        "info": "https:\/\/dribbble.com\/shopify"
       },
       {
         "type": "text",
@@ -2445,127 +2445,127 @@
         "type": "text",
         "id": "facebook_link",
         "label": "Facebook",
-        "info": "https://www.facebook.com/shopify"
+        "info": "https:\/\/www.facebook.com\/shopify"
       },
       {
         "type": "text",
         "id": "flickr_link",
         "label": "Flickr",
-        "info": "https://flickr.com/"
+        "info": "https:\/\/flickr.com\/"
       },
       {
         "type": "text",
         "id": "houzz_link",
         "label": "Houzz",
-        "info": "https://www.houzz.com/"
+        "info": "https:\/\/www.houzz.com\/"
       },
       {
         "type": "text",
         "id": "instagram_link",
         "label": "Instagram",
-        "info": "https://instagram.com/shopify"
+        "info": "https:\/\/instagram.com\/shopify"
       },
       {
         "type": "text",
         "id": "kickstarter_link",
         "label": "Kickstarter",
-        "info": "https://www.kickstarter.com/"
+        "info": "https:\/\/www.kickstarter.com\/"
       },
       {
         "type": "text",
         "id": "linkedin_link",
         "label": "LinkedIn",
-        "info": "https://www.linkedin.com/company/shopify"
+        "info": "https:\/\/www.linkedin.com\/company\/shopify"
       },
       {
         "type": "text",
         "id": "medium_link",
         "label": "Medium",
-        "info": "https://medium.com/"
+        "info": "https:\/\/medium.com\/"
       },
       {
         "type": "text",
         "id": "messenger_link",
         "label": "Messenger",
-        "info": "https://www.messenger.com/"
+        "info": "https:\/\/www.messenger.com\/"
       },
       {
         "type": "text",
         "id": "opensea_link",
         "label": "OpenSea",
-        "info": "https://opensea.io/"
+        "info": "https:\/\/opensea.io\/"
       },
       {
         "type": "text",
         "id": "pinterest_link",
         "label": "Pinterest",
-        "info": "https://www.pinterest.com/shopify"
+        "info": "https:\/\/www.pinterest.com\/shopify"
       },
       {
         "type": "text",
         "id": "reddit_link",
         "label": "Reddit",
-        "info": "https://www.reddit.com/r/shopify/"
+        "info": "https:\/\/www.reddit.com\/r\/shopify\/"
       },
       {
         "type": "text",
         "id": "rss_link",
         "label": "RSS",
-        "info": "https://www.shopify.com/content-services/feeds/ecommerce.atom"
+        "info": "https:\/\/www.shopify.com\/content-services\/feeds\/ecommerce.atom"
       },
       {
         "type": "text",
         "id": "snapchat_link",
         "label": "Snapchat",
-        "info": "https://www.snapchat.com/"
+        "info": "https:\/\/www.snapchat.com\/"
       },
       {
         "type": "text",
         "id": "spotify_link",
         "label": "Spotify",
-        "info": "https://www.spotify.com/"
+        "info": "https:\/\/www.spotify.com\/"
       },
       {
         "type": "text",
         "id": "tiktok_link",
         "label": "TikTok",
-        "info": "https://tiktok.com/@shopify"
+        "info": "https:\/\/tiktok.com\/@shopify"
       },
       {
         "type": "text",
         "id": "tumblr_link",
         "label": "Tumblr",
-        "info": "https://shopify.tumblr.com"
+        "info": "https:\/\/shopify.tumblr.com"
       },
       {
         "type": "text",
         "id": "twitch_link",
         "label": "Twitch",
-        "info": "https://www.twitch.tv/"
+        "info": "https:\/\/www.twitch.tv\/"
       },
       {
         "type": "text",
         "id": "twitter_link",
         "label": "Twitter",
-        "info": "https://twitter.com/shopify"
+        "info": "https:\/\/twitter.com\/shopify"
       },
       {
         "type": "text",
         "id": "vimeo_link",
         "label": "Vimeo",
-        "info": "https://vimeo.com/"
+        "info": "https:\/\/vimeo.com\/"
       },
       {
         "type": "text",
         "id": "whatsapp_link",
         "label": "WhatsApp",
-        "info": "https://www.whatsapp.com/"
+        "info": "https:\/\/www.whatsapp.com\/"
       },
       {
         "type": "text",
         "id": "youtube_link",
         "label": "YouTube",
-        "info": "https://www.youtube.com/user/shopify"
+        "info": "https:\/\/www.youtube.com\/user\/shopify"
       }
     ]
   },
