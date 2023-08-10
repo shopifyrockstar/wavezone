@@ -114,6 +114,11 @@
       {% endfor %}
     {% endif %}
   </div>
+  {% if section.settings.show_all_button == true %}
+    <div class="show-all-wrapper">
+      <a href="{{ collection.url }}">Show All</a>
+    </div>
+  {% endif %}
 </section>
 
 {% comment %} JavaScript {% endcomment %}
@@ -313,6 +318,12 @@
       "type": "textarea",
       "id": "custom_css",
       "label": "Custom CSS"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_all_button",
+      "label": "Show All Button",
+      "default": true
     }
   ],
   "presets": [{

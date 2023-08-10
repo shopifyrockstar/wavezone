@@ -1,1 +1,221 @@
-{"sections":{"image_with_text_overlay":{"type":"index__image-with-text-overlay","settings":{"link":"","image":"","pretext":"<p>Preheading<\/p>","title":"Image with Text Overlay","subtitle":"<p>Additional info in the subheading<\/p>","pretext_color":"#000000","heading_color":"#000000","subheading_color":"#000000","text_alignment":"center","text_horizontal_position":"center","text_vertical_position":"middle","background_color":"#ffffff","background_opacity":77,"border_color":"#ffffff","border_width":0,"text_width":40,"button_1":"Button 1","button_1_link":"","button_2":"Button 2","button_2_link":"","mobile_text_below_image":true,"pretext_color_mobile":"rgba(0,0,0,0)","heading_color_mobile":"rgba(0,0,0,0)","subheading_color_mobile":"rgba(0,0,0,0)","width":"wide","padding_top":0,"padding_bottom":0,"animation":"none","css_class":"","custom_css":""}},"image_with_text":{"type":"index__image-with-text","blocks":{"1557099063267-0":{"type":"image","settings":{"image":""}},"1557099063267-1":{"type":"image","settings":{"image":""}},"1557099063267-2":{"type":"text","settings":{"title":"Heading text here","heading_size":"regular","text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_label":"View all","link":"","button_style":"button--primary","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","alignment":"left","vertical_position":"center"}}},"block_order":["1557099063267-0","1557099063267-1","1557099063267-2"],"settings":{"width":"standard","show_gutter":true,"padding_top":20,"padding_bottom":20,"animation":"none","css_class":"","custom_css":""}},"featured_product":{"type":"index__featured-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{"display_savings":true}},"description":{"type":"description","settings":{}},"form":{"type":"form","settings":{"show_payment_button":true}},"share":{"type":"share","settings":{}}},"block_order":["title","price","description","form","share"],"settings":{"featured_product":"","product_images_position":"left","gallery_arrows":true,"enable_zoom":true,"enable_product_lightbox":true,"slideshow_speed":0,"slideshow_transition":"slide","thumbnail_position":"bottom-thumbnails","width":"standard","padding_top":20,"padding_bottom":20,"animation":"none","css_class":"","custom_css":""}},"featured_promotions":{"type":"index__featured-promotions","blocks":{"featured_promotions-0":{"type":"image","settings":{"image":"","link":"","overlay_background":"rgba(0,0,0,0)","overlay_text":"rgba(0,0,0,0)","icon_label":"truck","title":"Special deal","text":"<p>Promotion description details.<\/p>"}},"featured_promotions-1":{"type":"image","settings":{"image":"","link":"","overlay_background":"rgba(0,0,0,0)","overlay_text":"rgba(0,0,0,0)","icon_label":"bag","title":"Special deal","text":"<p>Promotion description details.<\/p>"}},"featured_promotions-2":{"type":"image","settings":{"image":"","link":"","overlay_background":"rgba(0,0,0,0)","overlay_text":"rgba(0,0,0,0)","icon_label":"tag","title":"Special deal","text":"<p>Promotion description details.<\/p>"}},"featured_promotions-3":{"type":"image","settings":{"image":"","link":"","overlay_background":"rgba(0,0,0,0)","overlay_text":"rgba(0,0,0,0)","icon_label":"star","title":"Special deal","text":"<p>Promotion description details.<\/p>"}}},"block_order":["featured_promotions-0","featured_promotions-1","featured_promotions-2","featured_promotions-3"],"settings":{"border_radius":0,"crop_images":true,"overlay_background":"#939393","overlay_background_opacity":70,"overlay_text":"#ffffff","show_border":true,"width":"standard","show_gutter":true,"padding_top":20,"padding_bottom":20,"animation":"none","css_class":"","custom_css":""}},"heading":{"type":"index__heading","settings":{"preheading":"<p>Add a preheading<\/p>","title":"Section heading","subheading":"<p>Additional text or description of section<\/p>","preheading_color":"rgba(0,0,0,0)","heading_color":"rgba(0,0,0,0)","subheading_color":"rgba(0,0,0,0)","background":"rgba(0,0,0,0)","gradient":"rgba(0,0,0,0)","gradient_rotation":0,"heading_alignment":"center","vertical_spacing":"medium","width":"standard","padding_top":20,"padding_bottom":20,"animation":"none","css_class":"","custom_css":""}},"logo_list":{"type":"index__logo-list","blocks":{"logo_list-0":{"type":"logo_image","settings":{"image":"","link":""}},"logo_list-1":{"type":"logo_image","settings":{"image":"","link":""}},"logo_list-2":{"type":"logo_image","settings":{"image":"","link":""}},"logo_list-3":{"type":"logo_image","settings":{"image":"","link":""}},"logo_list-4":{"type":"logo_image","settings":{"image":"","link":""}}},"block_order":["logo_list-0","logo_list-1","logo_list-2","logo_list-3","logo_list-4"],"settings":{"logos_per_row":5,"logo_size":"medium","background":"rgba(0,0,0,0)","gradient":"rgba(0,0,0,0)","gradient_rotation":0,"width":"standard","padding_top":20,"padding_bottom":0,"animation":"none","css_class":"","custom_css":""}},"rich_text":{"type":"index__rich-text","settings":{"title":"Rich text","heading_font":"open_sans_n4","heading_color":"rgba(0,0,0,0)","heading_alignment":"center","heading_size":30,"text":"<p>Use this section to create some callout text on your page, or add more details about your shop, services, promotions, etc. If you have a large amount&nbsp;of text, you can opt to have it display in <strong>two columns<\/strong> instead so that it's much easier to read.<\/p>\n<p><\/p>\n<p>This section also includes&nbsp;the option to add a button&nbsp;in primary or secondary style, and also control the colors, including the option for a gradient background. Since this is rich text, you can also <em>format it as you wish<\/em> and&nbsp;<a href=\"\/collections\/all\" title=\"All Products\">include links<\/a>.<\/p>","text_font":"open_sans_n4","text_color":"rgba(0,0,0,0)","text_alignment":"left","text_size":14,"columns":2,"button_label":"","button_link":"","button_alignment":"center","button_style":"button--primary","background":"#eeeeee","gradient":"#c0c0c0","gradient_rotation":180,"width":"wide","padding_top":20,"padding_bottom":0,"animation":"none","css_class":"","custom_css":""}}},"order":["image_with_text_overlay","image_with_text","featured_product","featured_promotions","heading","logo_list","rich_text"]}
+{
+  "sections": {
+    "image_with_text_overlay": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "",
+        "image": "shopify:\/\/shop_images\/wavezoneskim-banner-surfer_a242ce6a-be44-488d-a93a-7aa95cfa8e5f.jpg",
+        "pretext": "",
+        "title": "BUILT TO PERFORM <br> BUILT TO LAST",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#ffffff",
+        "subheading_color": "#000000",
+        "text_alignment": "left",
+        "text_horizontal_position": "left",
+        "text_vertical_position": "middle",
+        "background_color": "rgba(0,0,0,0)",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "SHOP NOW",
+        "button_1_link": "shopify:\/\/collections",
+        "button_1_style": "button--primary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_text_below_image": false,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "banner-section",
+        "custom_css": ""
+      }
+    },
+    "8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e": {
+      "type": "index__collection-list",
+      "blocks": {
+        "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-1": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "board-traction",
+            "image": "shopify:\/\/shop_images\/Skimboards-Menu-Box.jpg",
+            "title": "SHOP BOARDS",
+            "button_label": ""
+          }
+        },
+        "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-2": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "board-traction",
+            "image": "shopify:\/\/shop_images\/Traction-Menu-Box.jpg",
+            "title": "SHOP TRACTION",
+            "button_label": ""
+          }
+        },
+        "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-3": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "skimboards",
+            "image": "shopify:\/\/shop_images\/Gear-Menu-Box.jpg",
+            "title": "SHOP GEAR",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-1",
+        "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-2",
+        "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-3"
+      ],
+      "settings": {
+        "collections_per_row": 3,
+        "align_height": false,
+        "collection_height": 400,
+        "enable_zoom": true,
+        "button_style": "button--secondary",
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#ffffff",
+        "collection_title_below_image": false,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "first-featured-section",
+        "custom_css": ""
+      }
+    },
+    "14905245-585a-425c-9cbb-5d799c8569db": {
+      "type": "index__video",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "autoplay": false,
+        "autoloop": true,
+        "mute_video": false,
+        "controls": false,
+        "iframe_video": "https:\/\/www.youtube.com\/watch?v=dObg4vkEslY",
+        "html5_video": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "horizontal_text_position": "center",
+        "vertical_text_position": "center",
+        "text_align": "center",
+        "button_label": "",
+        "button_style": "button--secondary",
+        "overlay_style": "none",
+        "video_overlay_color": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "background_opacity": 0,
+        "text_width": 70,
+        "mobile_text_below_video": false,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "17668f77-d727-461a-a761-51e972eb1149": {
+      "type": "index__collection-list",
+      "blocks": {
+        "template--20299178279208__17668f77-d727-461a-a761-51e972eb1149-collection-1": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "beginner-sales",
+            "image": "shopify:\/\/shop_images\/beginner-intermediate-boards.jpg",
+            "title": "BEGINNER",
+            "button_label": ""
+          }
+        },
+        "template--20299178279208__17668f77-d727-461a-a761-51e972eb1149-collection-2": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "experienced-completes",
+            "image": "shopify:\/\/shop_images\/experienced-boards.jpg",
+            "title": "EXPERIENCED",
+            "button_label": ""
+          }
+        },
+        "template--20299178279208__17668f77-d727-461a-a761-51e972eb1149-collection-3": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "exp-adv",
+            "image": "shopify:\/\/shop_images\/advanced-boards.jpg",
+            "title": "ADVANCED",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20299178279208__17668f77-d727-461a-a761-51e972eb1149-collection-1",
+        "template--20299178279208__17668f77-d727-461a-a761-51e972eb1149-collection-2",
+        "template--20299178279208__17668f77-d727-461a-a761-51e972eb1149-collection-3"
+      ],
+      "settings": {
+        "collections_per_row": 3,
+        "align_height": false,
+        "collection_height": 400,
+        "enable_zoom": true,
+        "button_style": "button--secondary",
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#ffffff",
+        "collection_title_below_image": false,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "none",
+        "css_class": "second-featured-section",
+        "custom_css": ""
+      }
+    },
+    "36928376-58f5-4b3d-88e3-cc131f04bf7a": {
+      "type": "index__featured-collection",
+      "settings": {
+        "title": "Featured Skimboards",
+        "collection": "accessories",
+        "products_per": 3,
+        "mobile_products_per_row": "2",
+        "products_limit": 3,
+        "align_height": false,
+        "collection_height": 200,
+        "collection_style": "grid",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "featured-collection-section",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay",
+    "8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e",
+    "14905245-585a-425c-9cbb-5d799c8569db",
+    "17668f77-d727-461a-a761-51e972eb1149",
+    "36928376-58f5-4b3d-88e3-cc131f04bf7a"
+  ]
+}
