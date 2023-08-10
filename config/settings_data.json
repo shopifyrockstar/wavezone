@@ -7,21 +7,20 @@
     "button_cart_text_color": "#ffffff",
     "button_cart_text_color--highlight": "#ffffff",
     "button_cart_border_radius": 0,
-    "link_color": "#00a0af",
-    "link_hover_color": "#000000",
+    "display_heading_divider": false,
+    "link_color": "#ffffff",
+    "link_hover_color": "#ffffff",
     "header_background": "#000000",
     "header_link_hover_color": "#ffffff",
-<<<<<<< HEAD
-    "select_first_available_variant": false,
-=======
     "footer_background": "rgba(0,0,0,0)",
     "footer_link_hover_color": "#ffffff",
+    "thumbnail_hover_enabled": false,
     "select_first_available_variant": false,
+    "enable_quickshop": false,
     "facebook_link": "https:\/\/www.facebook.com\/wavezoneskim",
     "instagram_link": "https:\/\/www.instagram.com\/wavezoneskimboards\/",
     "twitter_link": "https:\/\/twitter.com\/wavezoneskim",
     "youtube_link": "https:\/\/www.youtube.com\/user\/WZSkimboards",
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -191,63 +190,32 @@
       "footer__icon-bar": {
         "type": "footer__icon-bar",
         "blocks": {
-<<<<<<< HEAD
-          "footer__icon-bar-0": {
-            "type": "text",
-            "settings": {
-              "icon": "leaf",
-              "text": "100% Organic",
-              "link": ""
-            }
-          },
-          "footer__icon-bar-1": {
-            "type": "text",
-            "settings": {
-              "icon": "bunny",
-              "text": "Cruelty free",
-              "link": ""
-=======
           "footer__icon-bar-1": {
             "type": "text",
             "settings": {
               "icon": "",
               "text": "View Our Full Catalog Here",
               "link": "shopify:\/\/collections\/all"
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
             }
           },
           "footer__icon-bar-2": {
             "type": "text",
             "settings": {
-<<<<<<< HEAD
-              "icon": "chat",
-              "text": "24\/7 support",
-=======
               "icon": "",
               "text": "FREE Shipping within the Continental U.S.",
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
               "link": ""
             }
           },
           "footer__icon-bar-3": {
             "type": "text",
             "settings": {
-<<<<<<< HEAD
-              "icon": "truck",
-              "text": "Free shipping",
-=======
               "icon": "",
               "text": "Handcrafted in the USA",
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
               "link": ""
             }
           }
         },
         "block_order": [
-<<<<<<< HEAD
-          "footer__icon-bar-0",
-=======
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
           "footer__icon-bar-1",
           "footer__icon-bar-2",
           "footer__icon-bar-3"
@@ -257,15 +225,9 @@
           "alignment": "center",
           "icon_position": "row",
           "size": "medium",
-<<<<<<< HEAD
-          "background": "#8b8b8b",
-          "link_color": "#ffffff",
-          "link_hover_color": "#000000",
-=======
           "background": "#1ba7dc",
           "link_color": "#ffffff",
           "link_hover_color": "#ffffff",
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
           "text_color": "#ffffff",
           "width": "standard",
           "css_class": "",
@@ -278,18 +240,6 @@
           "footer-classic-1": {
             "type": "link_list",
             "settings": {
-<<<<<<< HEAD
-              "menu": "main-menu",
-              "social_icons_footer": false
-            }
-          },
-          "footer-classic-2": {
-            "type": "text",
-            "settings": {
-              "title": "Title",
-              "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-              "social_icons_footer": false
-=======
               "menu": "footer",
               "social_icons_footer": true
             }
@@ -314,25 +264,17 @@
               "newsletter_richtext": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
               "display_first_name": false,
               "display_last_name": false
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
             }
           }
         },
         "block_order": [
           "footer-classic-1",
-<<<<<<< HEAD
-          "footer-classic-2"
-        ],
-        "settings": {
-          "copyright_text": "",
-=======
           "94a31a19-6f01-446f-b9a3-55be6c95b444",
           "e60d0540-d6f3-48d0-9b06-87a081e021b0",
           "50f040e4-3cc3-4892-9538-33925116dff1"
         ],
         "settings": {
           "copyright_text": "<p>Wave Zone Surf Company. All rights reserved.<\/p>",
->>>>>>> 33969f464176784eb54a0aa5033fad63b4b7d940
           "display_designed_by": false,
           "display_shopify": false,
           "display_payment_methods": false,
