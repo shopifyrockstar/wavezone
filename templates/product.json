@@ -43,18 +43,25 @@
           "settings": {
             "show_payment_button": true
           }
+        },
+        "fc026943-05d0-4749-b547-fb2c0557db5b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text block<\/p>"
+          }
         }
       },
       "block_order": [
         "title",
         "price",
         "description",
-        "form"
+        "form",
+        "fc026943-05d0-4749-b547-fb2c0557db5b"
       ],
       "settings": {
         "product_images_position": "left",
         "set_product_height": false,
-        "product_height": 500,
+        "product_height": 550,
         "video_looping": false,
         "gallery_arrows": true,
         "enable_zoom": true,
