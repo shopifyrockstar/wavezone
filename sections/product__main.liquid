@@ -438,7 +438,24 @@
     {
       "type": "description",
       "name": "Description",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Short Description"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_short_desc",
+          "label": "Show Short Description",
+          "default": true
+        },
+        {
+          "type": "richtext",
+          "id": "short_desc",
+          "label": "Short Description"
+        }
+      ]
     },
     {
       "type": "form",

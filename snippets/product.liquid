@@ -271,7 +271,28 @@
                     {{ product.description | strip_html | replace: 'Description', '' | replace: 'Dimensions', '' | replace: 'Details', '' | replace: 'Specs', '' | replace: 'Shipping', '' | replace: 'Size', '' | escape | split: '<!-- split -->' | first }}
                   {% endif %}
                 {% else %}
-                  {{ product.description | split: '<!-- split -->' | first }}
+                  {% if block.settings.show_short_desc %}
+                    <div class="tabs">                      
+                      <div role="tablist" aria-labelledby="tablist-1" class="automatic">
+                        <button id="tab-1" type="button" role="tab" aria-selected="true" aria-controls="tabpanel-1">
+                          <span class="focus">Overview</span>
+                        </button>
+                        <button id="tab-2" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-2" tabindex="-1">
+                          <span class="focus">More Info</span>
+                        </button>
+                      </div>
+                    
+                      <div id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+                        {{ block.settings.short_desc }}                          
+                      </div>
+                      <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="is-hidden">
+                        {{ product.description | split: '<!-- split -->' | first }}  
+                      </div>
+                    </div>
+                  {% else %}
+                    {{ product.description | split: '<!-- split -->' | first }}
+                  {% endif %}
+                  
                 {% endif %}
               </div>
             {% endif %}
