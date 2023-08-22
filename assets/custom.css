@@ -279,7 +279,46 @@
 .collection__breadcrumb ul li a{
     color: #000;
 }
+.collection__content .product__thumbnail .product-wrap .thumbnail__caption a{
+    color: #00a0af;
+    font-size:20px;
+}
+.collection__content .product__thumbnail .product-wrap .thumbnail__caption .product-thumbnail__price{
+    color: #044056;
+    /* margin-top: 20px; */
+    font-size:20px;
+}
+.collection__content .product__thumbnail .product-wrap:hover .thumbnail__caption a{
+    color: #000;
+}
+.collection-additional-info-wrapper li:last-child{
+    margin-bottom: 20px;
+}
+.collection-additional-info-wrapper li:first-child{
+    margin-top: 10px;
+}
 
+.collection-additional-info-wrapper li{
+    color: #00a0af;    
+    font-size:20px;
+    transition: color .3s ease-in-out;
+}
+.collection__content .product__thumbnail .product-wrap:hover{
+    cursor: pointer;    
+}
+.collection__content .product__thumbnail .product-wrap:hover .collection-additional-info-wrapper li{
+    color: #000;
+    transition: color .3s ease-in-out;
+    
+}
+@media (max-width: 480px){
+    .collection-additional-info-wrapper li, .collection__content .product__thumbnail .product-wrap .thumbnail__caption a{
+        font-size:16px;
+    }
+    .collection__content .product__thumbnail .product-wrap .thumbnail__caption .product-thumbnail__price{
+        font-size:16px;
+    }
+}
 
 /* product page */
 .product-template .breadcrumb__container ul li a{
@@ -287,4 +326,138 @@
 }
 .product-template .breadcrumb__container ul li:last-child a{
     color: #000;
+}
+.product-breadcrumb .page-navigation-arrows{
+    display: none;
+}
+.product-template .product-block--price .price{
+    color: #00a0af;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.product-template .product-block--title .title{
+    font-size: 3rem;
+}
+
+
+
+
+.tabs {
+    display: block;
+}
+
+[role="tablist"] {
+    min-width: 100%;
+}
+
+[role="tab"],
+[role="tab"]:focus,
+[role="tab"]:hover {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    top: 2px;
+    margin: 0;
+    margin-top: 4px;
+    padding: 3px 3px 4px;
+    border: 1px solid hsl(219deg 1% 72%);
+    border-bottom: 2px solid hsl(219deg 1% 72%);
+    border-radius: 5px 5px 0 0;
+    background: hsl(220deg 20% 94%);
+    outline: none;
+    font-weight: bold;
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+[role="tab"][aria-selected="true"] {
+    padding: 2px 2px 4px;
+    margin-top: 0;
+    border-width: 2px;
+    border-top-width: 6px;
+    border-top-color: rgb(36 116 214);
+    border-bottom-color: hsl(220deg 43% 99%);
+    background: hsl(220deg 43% 99%);
+}
+
+[role="tab"][aria-selected="false"] {
+    border-bottom: 1px solid hsl(219deg 1% 72%);
+}
+
+[role="tab"] span.focus {
+    display: inline-block;
+    margin: 2px;
+    padding: 4px 6px;
+}
+
+[role="tab"]:hover span.focus,
+[role="tab"]:focus span.focus,
+[role="tab"]:active span.focus {
+    padding: 2px 4px;
+    border: 2px solid rgb(36 116 214);
+    border-radius: 3px;
+}
+
+[role="tabpanel"] {
+    padding: 5px;
+    border: 2px solid hsl(219deg 1% 72%);
+    border-radius: 0 5px 5px;
+    background: hsl(220deg 43% 99%);
+    min-height: 10em;
+    width: 100%;
+    overflow: auto;
+}
+
+[role="tabpanel"].is-hidden {
+    display: none;
+}
+
+[role="tabpanel"] p {
+    margin: 0;
+}
+
+
+.product-block--description .tabs ul{
+    display: list-item;
+}
+.product-block--description .tabs ul li{
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 30px;
+}
+@media (max-width:480px){
+    [role="tab"],
+    [role="tab"]:focus,
+    [role="tab"]:hover{
+        width:30%;
+    }
+}
+
+
+
+
+
+/* cart page */
+.cart__form .cart__item-list .cart__card .cart__info{
+    width: 84%;
+}
+.cart__form .cart__item-list .cart__card .cart__info .item__title a{    
+    color: #00a0af;
+}
+.cart__form .cart__item-list .cart__card .cart__info .item__title a:hover, .cart__form .cart__item-list .cart__card .cart__info .item__title a:focus{
+    color: #000;
+}
+.cart__form .cart__item-list .cart__card .cart__remove{
+    position: relative;
+    top: unset;
+    right: unset;
+    width: 1%;
+}
+@media (max-width:798px){
+    .cart__form .cart__item-list .cart__card .cart__info{
+        width: 60%;
+    }
 }
