@@ -8,6 +8,12 @@
   {% else %}
     <a href="{{ product.url | within: collection }}" class="product-thumbnail__title">{{ product.title }}</a>
   {% endif %}
+  
+  <ul class="collection-additional-info-wrapper">
+    {% for data in product.metafields.custom.additional_info_for_collection.value %}
+      <li>{{ data }}</li>
+    {% endfor %}
+  </ul>
 
   {% if collection_handles contains 'coming-soon' %}
     {% if settings.stickers_enabled == false %}
