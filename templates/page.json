@@ -1,1 +1,101 @@
-{"sections":{"main":{"type":"page-content__main","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "7532d79b-630c-4aa2-a635-135b20e09c45": {
+      "type": "index__collection-list",
+      "blocks": {
+        "template--20299178508584__7532d79b-630c-4aa2-a635-135b20e09c45-collection-1": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "",
+            "title": "BUILD A SKIMBOARD",
+            "button_label": ""
+          }
+        },
+        "template--20299178508584__7532d79b-630c-4aa2-a635-135b20e09c45-collection-2": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "accessories",
+            "image": "shopify:\/\/shop_images\/Traction-Menu-Photo_caa15f29-2c5c-4ef6-aae2-8f67a0348b43.jpg",
+            "title": "SHOP TRACTION DECK GRIP",
+            "button_label": ""
+          }
+        },
+        "template--20299178508584__7532d79b-630c-4aa2-a635-135b20e09c45-collection-3": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "",
+            "title": "",
+            "button_label": "View products"
+          }
+        },
+        "da7e2585-e811-47ce-ae7f-7b756c5bd6bf": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "",
+            "title": "",
+            "button_label": "View products"
+          }
+        },
+        "0106b388-02fc-40ea-8a38-e20fc7e9a6ab": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "",
+            "title": "",
+            "button_label": "View products"
+          }
+        },
+        "e8fa87e9-c573-4631-8c8a-b7c09698f6a1": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "",
+            "title": "",
+            "button_label": "View products"
+          }
+        }
+      },
+      "block_order": [
+        "template--20299178508584__7532d79b-630c-4aa2-a635-135b20e09c45-collection-1",
+        "template--20299178508584__7532d79b-630c-4aa2-a635-135b20e09c45-collection-2",
+        "template--20299178508584__7532d79b-630c-4aa2-a635-135b20e09c45-collection-3",
+        "da7e2585-e811-47ce-ae7f-7b756c5bd6bf",
+        "0106b388-02fc-40ea-8a38-e20fc7e9a6ab",
+        "e8fa87e9-c573-4631-8c8a-b7c09698f6a1"
+      ],
+      "settings": {
+        "collections_per_row": 3,
+        "align_height": false,
+        "collection_height": 400,
+        "enable_zoom": true,
+        "button_style": "button--secondary",
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 0,
+        "overlay_text": "#ffffff",
+        "collection_title_below_image": false,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7532d79b-630c-4aa2-a635-135b20e09c45"
+  ]
+}

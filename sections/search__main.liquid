@@ -182,6 +182,7 @@
           {% if settings.search_option != 'product' or search.results.first.price == blank %}
             <div class="search__results-list" {% if section.settings.pagination_type != 'basic_pagination' %}data-load-more--grid {% endif %}>
               {% for item in search.results %}
+                {%- if item.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
                 <div class="search__item container has-padding-bottom" {% if section.settings.pagination_type != 'basic_pagination' %}data-load-more--grid-item{% endif %}>
                   {%- assign featured_image = false -%}
 

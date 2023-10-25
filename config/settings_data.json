@@ -16,6 +16,7 @@
     "footer_link_hover_color": "#ffffff",
     "thumbnail_hover_enabled": false,
     "select_first_available_variant": false,
+    "display_product_quantity": false,
     "enable_quickshop": false,
     "facebook_link": "https:\/\/www.facebook.com\/wavezoneskim",
     "instagram_link": "https:\/\/www.instagram.com\/wavezoneskimboards\/",

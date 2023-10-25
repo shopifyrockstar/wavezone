@@ -1,3 +1,4 @@
+{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- break -%}{%- endif -%}
 {% if related_products == true %}
   {% assign hover_enabled = block.settings.show_related_products_title_on_hover %}
 {% else %}

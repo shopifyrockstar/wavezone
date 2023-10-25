@@ -54,7 +54,7 @@
         "template--20299178279208__8f2bb73c-359a-48b3-8f73-ec3dba1d2f9e-collection-2": {
           "type": "collection",
           "settings": {
-            "feature_collection": "board-traction",
+            "feature_collection": "surf-skim-traction",
             "image": "shopify:\/\/shop_images\/Traction-Menu-Box.jpg",
             "title": "SHOP TRACTION",
             "button_label": ""
@@ -194,7 +194,7 @@
       "type": "index__featured-collection",
       "settings": {
         "title": "Featured Skimboards",
-        "collection": "accessories",
+        "collection": "featured-skimboards",
         "products_per": 3,
         "mobile_products_per_row": "2",
         "products_limit": 3,
@@ -207,7 +207,8 @@
         "padding_bottom": 20,
         "animation": "none",
         "css_class": "featured-collection-section",
-        "custom_css": ""
+        "custom_css": "",
+        "show_all_button": false
       }
     }
   },

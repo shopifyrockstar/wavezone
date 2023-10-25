@@ -26,7 +26,7 @@
 {% endfor %}
 
 {% for product in products limit: for_limit %}
-
+{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
   {% comment %} Skip product if we're on its product page {% endcomment %}
   {% if product.id != skip_product.id %}
     {% render 'product-thumbnail',
